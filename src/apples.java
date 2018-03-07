@@ -1,14 +1,15 @@
 class apples{
-	public static void main(String args[])
-	{
-		int a= 5;
-		double b=2.1;
-		String c= " Lbs";
-		double d=a*b ;
-	System.out.print("Baby weight is ");
-	System.out.println(+d +c);
-	
-
+	public static void main(String args[]) {
+			
+		double amount;
+		double principal = 10000;
+		double rate = .01;
+		
+		for(int day=1;day<=20;day++)
+		{
+			amount = principal * Math.pow(1 + rate,day);
+			System.out.println(day+" "+amount);
+		}
 		
 	}
 	
