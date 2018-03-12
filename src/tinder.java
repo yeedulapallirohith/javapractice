@@ -23,6 +23,6 @@ public class tinder {
 			{
 			System.out.println("This is not for your age, try something else");
 			}	
-		int d =9;	
+		
 	}
 }
