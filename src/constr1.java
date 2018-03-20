@@ -3,8 +3,6 @@ public class constr1 {
 	
 	public String a;
 	
-	
-
 	public constr1(String name) {
 		a = name;
 	}
